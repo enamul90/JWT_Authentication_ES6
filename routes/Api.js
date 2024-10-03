@@ -3,7 +3,7 @@ const router = express.Router();
 
 import * as UserController from '../app/controllers/UserController.js';
 import AuthMiddleware from "../app/middlewares/AuthMiddleware.js";
-import {resetPasswordController} from "../app/controllers/UserController.js";
+
 
 
 
