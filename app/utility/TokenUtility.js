@@ -1,4 +1,4 @@
-import {JWT_EXPIRES, JWT_KEY} from "../config/config.js";
+import {JWT_EXPIRES, JWT_KEY} from "../config/Config.js";
 import jwt from "jsonwebtoken";
 
 export const TokenEncode = (email,user_id)=>{
